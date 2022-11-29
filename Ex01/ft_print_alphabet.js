@@ -1,4 +1,4 @@
-int main(void)
+let main=(void)
 {
     char alpha[] = "abcdefghijklmnopqrstuvwxyz";
  

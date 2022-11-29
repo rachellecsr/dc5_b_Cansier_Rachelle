@@ -1,2 +1,11 @@
-let string = 'z y x w v u t s r q p o n m l k j i h g f e d c b a';
-console.log (string)
+var startValue=10;
+var endValue=20;
+var total='';
+function printAllValues(startValue,endValue){
+   for(var start=startValue;start < endValue ;start++){
+      total=total+start+",";
+   }
+}
+printAllValues(startValue,endValue)
+var allSequences = total.slice(0, -1);
+console.log(allSequences);

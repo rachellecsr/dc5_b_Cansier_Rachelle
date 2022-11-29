@@ -1,5 +1,5 @@
-var startValue=10;
-var endValue=20;
+var startValue=0;
+var endValue=1000000;
 var total='';
 function printAllValues(startValue,endValue){
    for(var start=startValue;start < endValue ;start++){
